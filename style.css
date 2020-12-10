@@ -1,0 +1,395 @@
+/* body {
+    /* margin: 0px;
+    padding: 0px; */
+/* background-color: #b3d1ff; 
+} */
+
+/* 
+header {
+    /* background-image: url(images/main.jpg); */
+/* background-repeat: no-repeat;
+    background-size: 100% 100%; 
+}
+
+*/
+.nav-wapper {
+  /* position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; */
+}
+
+.h-1 img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.carousel-item a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.loader_bg {
+  position: fixed;
+  z-index: 999999;
+  background: white;
+  width: 100%;
+  height: 100%;
+}
+
+.loader {
+  border: 0 solid transparent;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: calc(50vh - 75px);
+  left: calc(50vw - 75px);
+}
+
+.loader:before,
+.loader:after {
+  content: "";
+  border: 1em solid rgb(39, 109, 196);
+  border-radius: 50%;
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: loader 2s linear infinite;
+  opacity: 0;
+}
+
+.loader:before {
+  animation-delay: 0.5s;
+}
+
+@keyframes loader {
+  0% {
+    transform: scale(0);
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+.my-carousol {
+  margin: 0px;
+}
+
+.main1 {
+  background-color: rgb(39, 109, 196);
+  color: white;
+  border-radius: 5px;
+}
+
+h1,
+h2,
+h5,
+button,
+a,
+p {
+  font-family: Cambria;
+}
+
+.main1-1 {
+  margin-left: 20%;
+}
+
+.mission {
+  margin-top: 70px;
+}
+
+.main1 ul li {
+  font-size: 25px;
+  /* list-style: none; */
+  text-shadow: bisque;
+  font-family: Cambria;
+  line-height: 50px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.main1 h2 {
+  font-weight: bolder;
+}
+
+.nav {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  z-index: 999;
+  color: white;
+}
+
+.nav a {
+  color: white;
+  /*font-weight: 900;*/
+  font-family: Cambria;
+  font-size: 18px;
+  text-decoration: none;
+  margin-left: 15px;
+  margin-right: 15px;
+  position: static;
+}
+
+.nav .nav-link:hover {
+  color: white;
+}
+
+.main2 {
+  margin-top: 80px;
+}
+
+.main2 p {
+  font-size: 17px;
+}
+
+main2 ul li {
+  font-size: 17px;
+}
+
+.mission-header {
+  color: white;
+}
+
+.counter {
+  font-family: Cambria;
+}
+
+/* footer {
+    background-color: #f5f5f5;
+    position: relative;
+    clear: both;
+
+} */
+
+.flip-box p {
+  font-family: Cambria;
+}
+
+.clock {
+  margin-top: 50px;
+}
+
+hr {
+  border: 1px solid #ceded2;
+}
+
+.clock p {
+  line-height: 30px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.foot li {
+  list-style: none;
+  font-family: Cambria;
+}
+
+/* .flip-card p {
+
+    font-family: Yorkten Slab;
+
+} */
+
+.flip-card li {
+  font-family: Cambria;
+}
+
+/* a {
+
+    font-family: Yorkten Slab;
+
+} */
+.f1 {
+  color: rgb(39, 109, 196);
+  font-family: Cambria;
+  font-size: medium;
+}
+
+.about-1 p {
+  font-family: Cambria;
+}
+
+.about-1 h5 {
+  font-family: Cambria;
+}
+
+.foot-1 a {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.foot li a {
+  text-decoration: none;
+  color: rgb(39, 109, 196);
+  font-size: medium;
+  font-family: Cambria;
+}
+
+.foot h6 {
+  color: rgb(39, 109, 196);
+  font-family: Cambria;
+}
+
+.foot hr {
+  background-color: rgb(39, 109, 196);
+}
+
+.foot p {
+  color: rgb(39, 109, 196);
+  font-size: medium;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  /* border: 1px solid #f1f1f1; */
+  /* perspective: 1000px; */
+  /* Remove this if you don't want the 3D effect */
+}
+
+.flip-card h5 {
+  color: rgb(39, 109, 196);
+  margin-top: 20px;
+}
+
+.flip-card ul {
+  text-align: left;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  /* transition: transform 0.8s;
+  transform-style: preserve-3d; */
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  /* transform: rotateY(180deg); */
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+  /* position: absolute; */
+  width: 100%;
+  height: 100%;
+  /* -webkit-backface-visibility: hidden;
+  /* Safari */
+  /* backface-visibility: hidden; */
+}
+
+/* Style the front side (fallback if image is missing) */
+
+/* Style the back side */
+.flip-card-back {
+  color: white;
+  /* transform: rotateY(180deg); */
+}
+
+.flip-box {
+  background-color: transparent;
+  width: 100%;
+  height: 270px;
+
+  /* perspective: 1000px; */
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  /* transition: transform 0.8s;
+  transform-style: preserve-3d; */
+}
+
+.flip-box:hover .flip-box-inner {
+  /* transform: rotateX(180deg); */
+}
+
+.flip-box-front,
+.flip-box-back {
+  /* position: absolute; */
+  width: 100%;
+  height: 100%;
+  /* -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; */
+}
+
+.about-1 h5 {
+  margin-top: 20px;
+  color: rgb(39, 109, 196);
+}
+
+.about-1 p {
+  font-family: Cambria;
+  font-size: 17px;
+  line-height: 30px;
+}
+
+.flip-box-back {
+  /* transform: rotateX(180deg); */
+}
+
+.improve {
+  background-color: rgb(39, 109, 196);
+  color: white;
+  border-radius: 5px;
+}
+
+.improve h3 {
+  font-family: Cambria;
+}
+
+.improve ul {
+  margin-top: 30px;
+}
+
+.improve li {
+  list-style: none;
+}
+
+.improve li h5 {
+  margin-left: 30px;
+  font-size: 15px;
+}
+
+.clock h5 {
+  color: rgb(39, 109, 196);
+}
+
+.count h4 {
+  color: rgb(39, 109, 196);
+  margin-top: 10px;
+}
+
+.count h2 {
+  color: green;
+  font-family: Cambria;
+}
+
+#demo {
+  position: static;
+}

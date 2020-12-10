@@ -1,0 +1,8 @@
+[27-May-2020 06:10:21 America/Chicago] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/aman/public_html/shop.php on line 262
+[28-May-2020 00:33:14 America/Chicago] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/aman/public_html/shop.php on line 261
+[29-May-2020 01:05:52 America/Chicago] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home3/aman/public_html/shop.php on line 262
+[31-May-2020 13:39:46 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home3/aman/public_html/index.php on line 474
+[31-May-2020 13:40:22 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home3/aman/public_html/index.php on line 214
+[31-May-2020 13:40:44 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home3/aman/public_html/index.php on line 214
+[01-Jun-2020 22:04:53 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home3/aman/public_html/index.php on line 214
+[01-Jun-2020 22:04:54 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home3/aman/public_html/index.php on line 214
